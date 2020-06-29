@@ -11,7 +11,7 @@ var rotate = function(matrix){
       }
     }
     
-    for (var k=0; k<n; k++){
+    for (var k=0; k< matrix.length; k++){
       matrix[k].reverse();
     }
   
